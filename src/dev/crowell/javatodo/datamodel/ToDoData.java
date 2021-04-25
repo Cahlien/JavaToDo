@@ -1,6 +1,7 @@
 package dev.crowell.javatodo.datamodel;
 
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,13 +13,12 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Optional;
 
 public class ToDoData
 {
     private static ToDoData instance = new ToDoData();
     private static String filename = "ToDoListItems.txt";
-    private List<ToDoItem> toDoItems;
+    private ObservableList<ToDoItem> toDoItems;
     private DateTimeFormatter formatter;
 
     public static ToDoData getInstance()
@@ -31,7 +31,7 @@ public class ToDoData
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
 
-    public List<ToDoItem> getToDoItems()
+    public ObservableList<ToDoItem> getToDoItems()
     {
         return toDoItems;
     }
@@ -62,10 +62,7 @@ public class ToDoData
         }
         finally
         {
-            if(br != null)
-            {
-                br.close();
-            }
+            br.close();
         }
     }
 
@@ -86,12 +83,10 @@ public class ToDoData
                         item.getDeadline().format(formatter)));
                 bw.newLine();
             }
-        } finally
+        }
+        finally
         {
-            if (bw != null)
-            {
-                bw.close();
-            }
+            bw.close();
         }
     }
 }

@@ -44,10 +44,4 @@ public class ToDoItem
     {
         this.deadline = deadline;
     }
-
-    @Override
-    public String toString()
-    {
-        return shortDescription;
-    }
 }

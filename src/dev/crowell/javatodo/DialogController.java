@@ -22,14 +22,14 @@ public class DialogController
     @FXML
     private DatePicker deadlinePicker;
 
-    public Optional<ToDoItem> processResults(Optional<ButtonType> result)
+    public Optional<ToDoItem> processResults(ButtonType result)
     {
-        if(result.get() == ButtonType.OK)
+        if(result == ButtonType.OK)
         {
             String shortDesc = shortDescription.getText();
             String longDesc = longDescription.getText();
             LocalDate deadline = deadlinePicker.getValue();
-            Optional<ToDoItem> newItem = Optional.ofNullable(new ToDoItem(shortDesc, longDesc, deadline));
+            Optional<ToDoItem> newItem = Optional.of(new ToDoItem(shortDesc, longDesc, deadline));
             ToDoData.getInstance().addToDoItem(newItem.get());
             return newItem;
         }

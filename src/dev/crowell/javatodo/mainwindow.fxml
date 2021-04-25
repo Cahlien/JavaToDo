@@ -9,11 +9,9 @@
     <top>
         <MenuBar>
             <Menu text="File">
-                <items>
-                    <MenuItem text="New..." onAction="#showNewItemDialog"/>
-                    <SeparatorMenuItem/>
-                    <MenuItem text="Exit"/>
-                </items>
+                <MenuItem text="New..." onAction="#showNewItemDialog"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Exit"/>
             </Menu>
         </MenuBar>
     </top>
@@ -24,7 +22,7 @@
     </left>
     <center>
         <VBox style="-fx-background-color: white">
-            <TextArea fx:id="longDescriptionText" VBox.vgrow="ALWAYS"/>
+            <TextArea fx:id="longDescriptionText" VBox.vgrow="ALWAYS" wrapText="true" editable="false"/>
             <HBox>
                 <Label text="Due: ">
                     <font>

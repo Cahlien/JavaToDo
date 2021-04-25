@@ -8,12 +8,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("mainwindow.fxml"));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("mainwindow.fxml")));
         primaryStage.setTitle("ToDo List");
         primaryStage.setScene(new Scene(root, 900, 500));
         primaryStage.show();
@@ -25,7 +26,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void init() throws Exception
+    public void init()
     {
         try
         {
@@ -38,7 +39,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void stop() throws Exception
+    public void stop()
     {
         try
         {
