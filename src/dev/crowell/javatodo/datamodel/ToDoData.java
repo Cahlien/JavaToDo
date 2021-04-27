@@ -89,4 +89,9 @@ public class ToDoData
             bw.close();
         }
     }
+
+    public void deleteToDoItem(ToDoItem item)
+    {
+        toDoItems.remove(item);
+    }
 }

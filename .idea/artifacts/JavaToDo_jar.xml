@@ -1,0 +1,53 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaToDo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaToDo_jar</output-path>
+    <root id="archive" name="JavaToDo.jar">
+      <element id="module-output" name="JavaToDo" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/JavaFX/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11/javafx-fxml-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11/javafx-fxml-11-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11/javafx-controls-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11/javafx-controls-11-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11/javafx-base-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11/javafx-base-11-linux.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.base.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.graphics.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.media.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.properties" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/javafx.web.jar" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libavplugin-54.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libavplugin-56.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libavplugin-57.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libavplugin-ffmpeg-56.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libavplugin-ffmpeg-57.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libdecora_sse.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libfxplugins.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libglass.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libglassgtk2.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libglassgtk3.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libgstreamer-lite.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjavafx_font.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjavafx_font_freetype.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjavafx_font_pango.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjavafx_iio.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjfxmedia.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libjfxwebkit.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libprism_common.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libprism_es2.so" />
+      <element id="file-copy" path="$USER_HOME$/JavaFX/lib/libprism_sw.so" />
+    </root>
+  </artifact>
+</component>
